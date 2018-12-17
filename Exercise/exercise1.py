@@ -13,6 +13,7 @@
 # print(5 % 5) # output: 0
 # print(15 % 5) # output: 0
 # print(26 % 3) # output: 2
+# print(6 % 3) # output: 0
 # So for you know if a number is a multiple of something
 # you need to test them and if is 0 the number is a multiple.
 #
