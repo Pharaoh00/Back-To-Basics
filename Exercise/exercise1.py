@@ -28,4 +28,6 @@
 # So for you know if a number is a multiple of something
 # you need to test them and if is 0 the number is a multiple.
 #
+# Use if/elif/else. You will need all the 3.
+#
 # GOOD LUCK
