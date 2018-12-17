@@ -15,10 +15,12 @@ print(type(variable_str)) # This is a string
 print(type(variable_bool)) # This is a boolean
 
 # Now we can start interact with other
-
 print("This is a float: {}".format(variable_int + variable_float))
 print("To proof, this is a float: {}"
       .format(type(variable_int + variable_float)))
+# When you add a float with a integer, always the output value is a float.
+# When you add a integer with a integer, always the output value is a integer.
+# print(variable_int + 1) # This will be a int type.
 
 # Now to interact with strings is a little weird.
 # The way things work is like this:
