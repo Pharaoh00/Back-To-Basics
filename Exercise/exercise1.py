@@ -14,6 +14,8 @@
 # who has enough experiences can't do this.
 # BECAUSE THEY DON'T KNOW THE BASICS!
 # It's so simple as priting something on the console with python.
+# When you finish, you can put the answer on your own github, or on the gist. (https://gist.github.com/)
+# If you don't have a github, make one please.
 
 # Tip:
 # For check if a number is a multiple of something you need to use the
