@@ -5,7 +5,7 @@
 # DISCLAIMER
 # About the naming:
 # Pep8 https://www.python.org/dev/peps/pep-0008/#function-and-variable-names
-# Call how naming shoud be.
+# Call how naming should be.
 # I do not follow all the rules
 # For example:
 # variable names should be lowercase, with words separated by underscores as necessary to improve readability.
@@ -19,6 +19,8 @@ def myFunction(): # this is how you let python know, "this is a function"
     # All variables inside this "scope"
     # is from this function. You cannot
     # access the function variable out side.
+    # This mean:
+    # my_variable is only acessed by myFunction()
     my_variable = 1
     return my_variable
 
