@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
 
+# Variables and data types.
+
 variable_int = 1
 variable_float = 1.0
 variable_str = "Hello Python!"
