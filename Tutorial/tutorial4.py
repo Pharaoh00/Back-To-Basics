@@ -25,13 +25,13 @@ for numbers in range(10):
     # 8
     # 9
     # Remember, you tell python to create 10 numbers,
-    # so 10 numbers is computer science is 0 to 9.
+    # so 10 numbers in computers is 0 to 9.
     # If you need the number 10, you can specify
     # ... in range(11) or in range(10+1)
     # But the range() function work with two number.
     # Remember the default arguments from functions and variables?
     # range() have a default value.
-    # The first value is 0, if you dont pass.
+    # The first value is 0. You dont need to pass.
     # You can tell python to begin on the number 1.
     # ... in range(1, 10)
     # but this will give 1 to 9 again.
@@ -47,7 +47,7 @@ for clocks in range(1, 11):
     # This is the sleep from the module time
     # Dont worry with import right now.
     # We will see them.
-    #time.sleep(0.5) # UNCOMMENT THIS
+    time.sleep(0.5) # If you want, you can comment his line. The code will run faster
     # Now, everytime the loop go through the clocks
     # they will wait half a second for loop again.
 
@@ -61,28 +61,28 @@ while clocks <= 10:
     # this mean, while the numbers from clocks
     # is less of equal (<=) 10... Keep going.
     print(clocks)
-    #time.sleep(0.5)# UNCOMMENT THIS
+    time.sleep(0.5) # If you want, you can comment his line. The code will run faster
     clocks += 1 # this mean, take the curruent number and sum +1
     # Now we dont need to specify the number 11
-    # because python know "less of EQUAL" to 10
+    # because python know "less or EQUAL" to 10
     # When the clocks get to 10, the loop is over
 
 print("***************************************************")
 
-# Programs works with a while loop on the main function
+# Programs work with a while loop on the main function
 # ALL THEM.
 # They generic have a variable "running = True" or whataver
-# And the program will run forever util running = True
+# And the program will run forever until running = False
 # DONT RUN THIS CODE if you dont know how to manually break the loop
 # running = True
 # while running:
 #     "run the program"
+#     print("running")
 #
 # This will run forever.
 
 # Lets take a look at if/elif/else statement
-# You use them on other tutorials.
-# Lets use the range thing.
+# We use them on other tutorials.
 # Lets take your example:
 
 def beats(one, two):
@@ -100,8 +100,8 @@ def beats(one, two):
     # Keep trying
     # elif mean this
     # If you make another if here
-    # the code works just fine
-    # We i'll see a case which things get weird
+    # the code works just fine... but
+    # we i'll see a case which things get weird
     elif one is "rock":
         if two is "paper": # Rock Lose from paper
             return False
@@ -118,18 +118,15 @@ def beats(one, two):
         elif two is "paper": # Scissors win from paper
             return True
 
-    # Do you see a pattern?
-    # You are repeating yourself.
+print(beats("rock", "rock")) # Tie
+print(beats("rock", "paper")) # False
+print(beats("rock", "scissors")) # Will print True
 
-print(beats("rock", "rock"))
-print(beats("rock", "paper")) # I'll print False
-print(beats("rock", "scissors")) # I'll print True
+print(beats("paper", "rock")) # False
+print(beats("paper", "scissors")) # True
 
-print(beats("paper", "rock")) # I'll print False
-print(beats("paper", "scissors")) # I'll print True
-
-print(beats("scissors", "rock")) # I'll print False
-print(beats("scissors", "paper")) # I'll print True
+print(beats("scissors", "rock")) # False
+print(beats("scissors", "paper")) # True
 
 # Lets explain more:
 #
