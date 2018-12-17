@@ -38,4 +38,8 @@ except TypeError as e:
 # the except will except the especific error, "TypeError" and now the
 # program will not exit/crash, just output some error.
 
-
+# And for the last the boolean
+# Boolean if good for test things
+if variable_bool is True:
+    print("This is True. Because the variable passed is: {}"
+          .format(variable_bool))
