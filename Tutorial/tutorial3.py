@@ -13,10 +13,10 @@ print("Type of {}: {}".format("my_list", type(my_list)))
 
 # You can loop through them:
 # This is for another topic, but for loops is a control flow.
-for x in my_list:
+for items in my_list:
     print("Programming Language: {}".format(x)) 
     # And the for loop will loop all items in a list
-    # a the "x" variable is each values from the list.
+    # the "items" variable is each values from the list.
     # So:
     # first item is "Python"
     # second item is "C"
@@ -25,7 +25,7 @@ for x in my_list:
     # Stop loop
 print("**********************************************************")
 # You can add more items on a list.
-# you can use append on the list.
+# you can use append.
 my_list.append("Ruby")
 print(my_list) # Now you add the Ruby language on the final.
 
@@ -57,8 +57,8 @@ my_list.remove("Ruby")
 print(my_list) # Now the list does have the Ruby
 
 # You can get the values from reverse
-for x in reversed(my_list):
-    print(x)
+for items in reversed(my_list):
+    print(items)
     # Will print JavaScript first
 print("----------------------------------------------------------")
 
@@ -89,6 +89,7 @@ except AttributeError as e:
 # This is good for make something which can not be changed.
 print("----------------------------------------------------------")
 
+# -- SETS --
 # Sets are good for make uniques items
 # this is how you make sets
 my_set = {1, 2, 3, 1, 2, 3}
@@ -100,12 +101,13 @@ print(my_set)
 # Will use them in the future.
 # Now you only need to know they are a UNIQUE sets of items
 print("----------------------------------------------------------")
+
+# -- DICTIONARYS --
 # Now the dictionary are a sequence which have keys and values
 my_dict = {"Python": 0, "C": 1, "C++": 2, "Java": 3, "JavaScript": 4}
 print("Type of {}: {}".format("my_dict", type(my_dict)))
 # For loop through them is a little different too.
-# But i i'll show you.
-for key, value in my_dict.items():
+for key, value in my_dict.items(): # This is a unpack thing. You i'll use a lot.
     print("Value of key {} is {}".format(key, value))
 
 # For add something to a dictionary
@@ -130,6 +132,6 @@ for num, item in enumerate(my_list):
 print(my_other_dict)
 # Cool right?
 # The enumerate() function follow the index's of the list
-# so a loop through the my_list and made the Key the items
-# from my_list and the Values the "index's".
+# so i loop through the my_list and made the Key the items
+# and the Values the "index's".
 
