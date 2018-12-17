@@ -5,7 +5,7 @@
 # Controlling the program flow is crucial.
 #
 # Like you see on the Data Structe tutorial
-# you can use for loops to loop through an list
+# you can use for loops to loop through a list
 # Lets create a "fast" list to loop.
 import time
 
@@ -47,7 +47,7 @@ for clocks in range(1, 11):
     # This is the sleep from the module time
     # Dont worry with import right now.
     # We will see them.
-    time.sleep(0.5) # If you want, you can comment his line. The code will run faster
+    time.sleep(0.5) # If you want, you can comment this line. The code will run faster
     # Now, everytime the loop go through the clocks
     # they will wait half a second for loop again.
 
@@ -59,9 +59,9 @@ print("***************************************************")
 clocks = 0
 while clocks <= 10:
     # this mean, while the numbers from clocks
-    # is less of equal (<=) 10... Keep going.
+    # is less or equal (<=) 10... Keep going.
     print(clocks)
-    time.sleep(0.5) # If you want, you can comment his line. The code will run faster
+    time.sleep(0.5) # If you want, you can comment this line. The code will run faster
     clocks += 1 # this mean, take the curruent number and sum +1
     # Now we dont need to specify the number 11
     # because python know "less or EQUAL" to 10
@@ -72,11 +72,11 @@ print("***************************************************")
 # Programs work with a while loop on the main function
 # ALL THEM.
 # They generic have a variable "running = True" or whataver
-# And the program will run forever until running = False
+# And the program will run forever until "running = False"
 # DONT RUN THIS CODE if you dont know how to manually break the loop
 # running = True
 # while running:
-#     "run the program"
+#     # "run the program"
 #     print("running")
 #
 # This will run forever.
@@ -134,9 +134,9 @@ print(beats("scissors", "paper")) # True
 # True of False
 # Testing mean, "if this thing is True, do something"
 # if you put another if again, and the value is the same
-# the if statement will run again, because is True.
+# the if statement will run again, because is the same value.
 # BUT,
-# if you put elif and the fist thing is True,
+# if you put elif, and the fist thing is True,
 # python only run on the first interation.
 # I know, is confuse, but test this code.
 
@@ -163,4 +163,4 @@ print("***************************************************")
 # Lets write the program.
 #
 # Now, for this if/elif/else i need to you go on the Exercise folder
-# and make them.
+# and try solve the fizzbuzz problem.
