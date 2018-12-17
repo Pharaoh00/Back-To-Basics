@@ -19,15 +19,15 @@
 
 # Tip:
 # For check if a number is a multiple of something you need to use the
-# modulus from math. This mean the factorization.
-# This this example:
+# modulus from math. The factorization.
+# For the modulus you can test with something like this:
 # print(5 % 5) # output: 0
 # print(15 % 5) # output: 0
 # print(26 % 3) # output: 2
 # print(6 % 3) # output: 0
 # So for you know if a number is a multiple of something
-# you need to test them and if is 0 the number is a multiple.
+# you need to test them and, if the remainder is 0 the number is a multiple.
 #
-# Use if/elif/else. You will need all the 3.
+# Use if/elif/else. You will need all the 3. ALL of them.
 #
 # GOOD LUCK
