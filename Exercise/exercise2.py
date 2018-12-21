@@ -4,7 +4,13 @@
 # Exercise from Class's
 #
 # Write a game which have a main loop.
-# Make a text "turn based" game.
+# Make a text "turn based" game. Like a dungeon wave game.
+#
+# imagine, you're on a Dungeon... 
+# on your right have a stranger, wearing dark clothes and looking at you.
+# Suddenly he opens the door and asks you to enter, and "many" monsters are coming.
+# When you have just killed them all, the door opens again and it offers things for you to buy.
+#
 # Make a menu options for the combat.
 # Make a proper system of atack and defense points. Which have equipaments.
 #
@@ -17,6 +23,9 @@
 # Use json files for keep your informations about:
 # Player name, last names, guild, atack/defense points, equipaments and etc
 # for Enemys too.
+#
+# Make a system for buy stuff from a NPC. With currency.
+# Make at least two modes, "battle" and "resupply".
 #
 # You dont need the game to be a class. If you want... you can make a class
 # but dont need.
