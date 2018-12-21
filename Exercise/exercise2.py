@@ -35,7 +35,7 @@
 # 
 # RULES:
 # If you want, you can search on google.
-# Do not do what you can. Stay in the basics. 
+# Do what you can. Stay in the basics.
 # Be creative.
 # Have fun.
 #
