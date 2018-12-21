@@ -22,6 +22,11 @@ class Player:
             return False
 
     def battle(self, defensor):
+        # The function battle is only here to show you.
+        # You need to create another function or class to handle the combat "mode".
+        # You can make two modes, battle mode, and i dont know, resupply mod. Buy stuff and etc.
+        # With "resupply mod" you can have a currency and a NPC to buy.
+        # Only your creativity can stop you. 
         self.damage = self.atack_p - defensor.defense_p
         defensor.health -= self.damage
         
