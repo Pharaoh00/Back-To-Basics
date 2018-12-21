@@ -281,3 +281,4 @@ print(e2.name)
 print(e2.guild)
 print(e2.char)
 
+# Go on the exercise folder and make the exercise2.py
