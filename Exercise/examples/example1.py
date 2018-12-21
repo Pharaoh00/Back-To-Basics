@@ -1,14 +1,5 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
-# ----------------------------------------------------------- #
-# Filename: test.py
-# Creation Date: sexta-feira, 21 dezembro 2018 04:40
-# Author: Hamon-Rá Taveira Guimarães
-# Contact:
-#         GitHub: https://github.com/
-#         E-mail: hamoncsl@hotmail.com
-#         Facebook: https://www.facebook.com/hamonra.taveira
-# ----------------------------------------------------------- #
 
 class Player:
     
