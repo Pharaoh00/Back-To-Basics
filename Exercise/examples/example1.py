@@ -33,7 +33,7 @@ class Player:
 p1 = Player("Pharaoh", "Warrior", 10, 5)
 p2 = Player("Skeleton", "Necromancer", 5, 2, mana=500, is_friend=False)
 
-if not p1 == p2: # Dump check for hostilite
+if not p1 == p2: # Dumb check for hostilite
     print("You encounter a Enemy!")
     print("Enemy {} have {} of life.".format(p2.name, p2.health))
     while p1.health >= 0 or p2.health >= 0:
