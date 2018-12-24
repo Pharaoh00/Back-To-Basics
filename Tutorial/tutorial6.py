@@ -13,7 +13,7 @@
 # You know the module random right?
 # Import random
 # random()
-# This is are is generated.
+# This is where is generated
 # random.py
 #
 # PLEASE
